@@ -1,0 +1,56 @@
+/* Base Settings Page */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  Body Layout */
+body {
+  width: 512px;
+  margin: 10px auto;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+header {
+  padding: 9.6px 16px;
+  border-bottom: 3px solid black;
+}
+
+main {
+  padding: 20px 36px;
+}
+
+footer {
+  padding: 8px 16px 32px; 
+  border-top: 3px solid black;
+}
+
+/* Char Font-size*/
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Features Cards*/
+.cards {
+  /* Space between cards */
+  > .card-view + .card-view {
+    margin-top: 20px;
+  }
+}
+
+.card-view {
+  min-height: 200px;
+  padding: 19.2px;
+  border: 3px solid black;
+}
